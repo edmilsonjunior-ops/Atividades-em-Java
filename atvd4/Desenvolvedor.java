@@ -8,6 +8,7 @@ public class Desenvolvedor extends Funcionario {
 
     @Override
     public double calcularSalario() {
-        return super.calcularSalario() + super.calcularSalario() * 0.10;
+        double salario = super.calcularSalario();
+        return salario + (salario * 0.1);
     }
 }

@@ -13,13 +13,13 @@ public class Main {
         Cliente cliente1 = new Cliente(
                 1,
                 "Edmilson",
-                "111.111.111-11"
+                "11111111111"
         );
 
         Cliente cliente2 = new Cliente(
                 2,
                 "Carlos",
-                "222.222.222-22"
+                "22222222222"
         );
 
         Conta conta1 = new Conta(
